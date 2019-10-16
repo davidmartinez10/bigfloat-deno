@@ -1,4 +1,4 @@
-// bigfloat-deno v0.0.1
+// bigfloat-deno v1.0.0
 import * as arithmetic from "./lib/arithmetic.ts";
 import { set_precision } from "./lib/constants.ts";
 import * as constructors from "./lib/constructors.ts";
