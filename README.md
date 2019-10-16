@@ -42,7 +42,7 @@ new Decimal("2").sqrt().toString() // "1.414213562373095048801688"
 - [The bigfloat object](#the-bigfloat-object)
 - [Change precision](#change-precision)
 - [evaluate(expression, precision)](#evaluateexpression-precision)
-- [make(number)](#makenumber)
+- [bigfloat(number) / make(number)](#makenumber)
 - [string(bigfloat)](#stringbigfloat)
 - [Other useful functions](#other-useful-functions)
 - [Changelog](#changelog)
@@ -60,7 +60,7 @@ import bigfloat, { Decimal } from "bigfloat.js";
 # The bigfloat object
 ```typescript
 interface BigFloat {
-  coefficient: JSBI;
+  coefficient: bigint;
   exponent: number;
 }
 ```
