@@ -1,4 +1,4 @@
-[![BigFloat](https://raw.githubusercontent.com/davidmartinez10/bigfloat-esnext/master/bigfloat.jpg)](https://github.com/davidmartinez10/bigfloat-esnext)
+[![BigFloat](https://raw.githubusercontent.com/davidmartinez10/bigfloat-esnext/master/bigfloat.jpg)](https://github.com/davidmartinez10/bigfloat-deno)
 
 A library for arbitrary precision decimal floating point arithmetic that can exactly represent all decimal fractions,
 unlike JavaScript's number data type which is 64-bit binary floating point.
