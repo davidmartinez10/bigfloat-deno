@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
-    "target": "esnext"
+    "target": "esnext",
+    "lib": [
+      "ES2020"
+    ]
   }
 }

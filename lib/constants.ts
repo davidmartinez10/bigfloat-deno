@@ -1,11 +1,11 @@
 import { make } from "./constructors.ts";
-import { BigFloat } from "./types.ts";
+import type { IBigFloat } from "./types.ts";
 
 export const BIGINT_ZERO = BigInt("0");
 export const BIGINT_ONE = BigInt("1");
 export const BIGINT_TEN = BigInt("10");
 export const BIGINT_TEN_MILLION = BigInt("10000000");
-export const ZERO: BigFloat = Object.create(null);
+export const ZERO: IBigFloat = Object.create(null);
 ZERO.coefficient = BIGINT_ZERO;
 ZERO.exponent = 0;
 Object.freeze(ZERO);
